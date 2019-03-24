@@ -1,0 +1,45 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background-image: url("header.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.mycontainer {
+}
+
+h1{
+	color: white;
+	text-align: center;
+	padding-top: 17%;
+	padding-bottom: 15%;
+	font-family: 'Montserrat', sans-serif;
+}
+.btn {
+	display: flex;
+	background-color: #D61414;
+	margin: auto;
+	flex-direction: column-reverse;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 100px;
+	color: white;
+}
+
+.btn:hover {
+	background-color: grey;
+	cursor: pointer;
+}
+
+.mailchimp {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+
+
+}
